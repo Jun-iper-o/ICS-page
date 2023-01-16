@@ -41,9 +41,6 @@ header section.Vector a img{
     margin: 20px;
     padding-left: 1600px;
 }
-
-/*Nav*/
-
 section.title h2 a{
     font-size: 30px;
     font-weight: 400;
@@ -62,67 +59,63 @@ section.title{
     margin-top: 20px;
     margin-bottom: 20px;
 }
-nav div.Tag{
-    background-color: #213E25;
-    max-width: 150px;
-    height: 0;
-    margin-left: 70px;
-    border-top: 20px solid transparent;
-    border-right: 20px solid #ffff;
-    border-bottom: 20px solid transparent;
-}
-nav div h3{
-    font-family: 'poppins', sans-serif;
-    color: aliceblue;
-    font-weight: 300;
-    font-size: 20px;
-    margin-left: 15px;
-    margin-top: -15px;
-}
-
-/*Posts*/
-
-div.List{
-    display: flex;
-    float: left;
-    margin-left: 40px;
-    margin-top: 20px;
-
-}
-div.Post{
-    margin-left: 30px;
-    background-color: #E1E2E6;
-    padding-bottom: 20px;
-
-}
-div.Post p{
-    font-family: 'montserrat', sans-serif;
+div.Info h3{
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
     font-weight: 500;
-    font-style: italic;
-    font-size: 15px;
-    margin-left: 30px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-
+    font-size: 30px;
 }
-div.Post a{
-    font-family: 'montserrat', sans-serif;
-    font-weight: 400;
+div.Info p{
+    font-family: 'Montserrat', sans-serif;
     font-style: italic;
-    font-size: 16px;
-    margin-left: 30px;
-    text-decoration: underline;
+    font-weight: 300;
+    font-size: 25px;
 }
-div.Post a.button{
+div.Info h4{
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 35px;
+}
+div.Info a{
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+    font-weight: 250;
+    font-size: 20px;
+}
+div.Post h5.button{
     display: inline;
     text-decoration: none;
-    margin-left: 100px;
-    padding: 7px ;
+    margin-left: 200px;
+    padding: 10px ;
     color: #E1E2E6;
     background-color: #213E25;
+    font-family: 'Montserrat',sans-serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 25px;
+}
+h5.button{
+    max-width: 25px;
+    border-radius: 8px;
 
 }
-a.button{
-    max-width: 20px;
-    border-radius: 8px;
+main div.Post{
+    display: flex;
+    float: left;
+    padding-left: 18%;
 }
+div.Info{
+    margin-left: 40PX;
+    margin-top: 40px;
+}
+div.Info p{
+    margin-top: 30px;
+}
+div.Info h4{
+    margin-top: 30px;
+}
+div.Info a{
+    margin-top: 30px;
+}
+
